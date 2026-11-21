@@ -1,0 +1,10 @@
+eps/*/frames/
+eps/*/clipframes/
+eps/*/audio/
+eps/*/pv_*.jpg
+eps/*/_render.html
+eps/*/vo.wav
+eps/*/*.mp4
+eps/*/*.mp3
+eps/*/contact.png
+out/
