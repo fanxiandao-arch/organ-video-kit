@@ -8,3 +8,4 @@ eps/*/*.mp4
 eps/*/*.mp3
 eps/*/contact.png
 out/
+eps/*/img/*.png
