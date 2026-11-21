@@ -28,7 +28,7 @@ function draw(t){g.setTransform(K,0,0,K,0,0);g.fillStyle='#000';g.fillRect(0,0,W
  let gr=g.createLinearGradient(0,0,0,H);gr.addColorStop(0,'rgba(0,0,0,0.55)');gr.addColorStop(0.14,'rgba(0,0,0,0)');gr.addColorStop(KP?0.72:0.62,'rgba(0,0,0,0)');gr.addColorStop(0.86,KP?'rgba(0,0,0,0.35)':'rgba(0,0,0,0.75)');gr.addColorStop(1,KP?'rgba(0,0,0,0.5)':'rgba(0,0,0,0.85)');g.fillStyle=gr;g.fillRect(0,0,W,H);
  const rg=g.createRadialGradient(W/2,H/2,H*0.3,W/2,H/2,H*0.75);rg.addColorStop(0,'rgba(0,0,0,0)');rg.addColorStop(1,KP?'rgba(0,0,0,0.25)':'rgba(0,0,0,0.5)');g.fillStyle=rg;g.fillRect(0,0,W,H);
  g.textAlign='center';g.textBaseline='middle';g.font=`500 13px ${F}`;g.fillStyle='rgba(255,255,255,0.72)';g.fillText('本视频仅作科学知识普及',250,30);g.fillText('不作为任何医学诊断、治疗或用药依据',250,49);
- const H0=EP.cover?1.4:0.2;const ta=Math.min(ease((t-H0)/0.5),ease((6.0+H0-t)/0.5));if(ta>0){g.save();g.globalAlpha=ta;g.shadowColor='rgba(0,0,0,0.8)';g.shadowBlur=16;g.font=`800 40px ${F}`;g.fillStyle='#fff';g.fillText(EP.hook[0],250,150);g.fillStyle=(EP.theme||{}).hook2||'#7FE3F0';g.fillText(EP.hook[1],250,202);
+ const H0=EP.cover?1.4:0.2;const ta=Math.min(ease((t-H0)/0.5),ease((6.0+H0-t)/0.5));if(ta>0){g.save();g.globalAlpha=ta;g.shadowColor='rgba(0,0,0,0.8)';g.shadowBlur=16;g.font=`900 40px ${F}`;g.lineJoin='round';g.lineWidth=8;g.strokeStyle='rgba(0,0,0,0.92)';g.strokeText(EP.hook[0],250,150);g.fillStyle='#fff';g.fillText(EP.hook[0],250,150);g.strokeText(EP.hook[1],250,202);g.fillStyle='#FFE14D';g.fillText(EP.hook[1],250,202);
   if(t>H0+2.8&&EP.tease){g.globalAlpha=ta*ease((t-H0-2.8)/0.5);g.font=`700 22px ${F}`;g.fillStyle=(EP.theme||{}).tease||'#FFD27A';g.fillText(EP.tease,250,252);}g.restore();}
  for(const [a,b,s] of TL){const al=Math.min(ease((t-a+0.05)/0.15),ease((b+0.2-t)/0.15));if(al<=0)continue;const ls=s.split('\n');
   const fs=KP?29:24,lh=KP?42:34,y0=KP?640:730;
@@ -113,4 +113,7 @@ if __name__=="__main__":
     if cmd in("preview","all"): preview(ep,d)
     if cmd in("render","all"): render(ep,d,hd)
     if cmd=="bgm": bgm(ep,d,sys.argv[3],hd)
+    if cmd=="final":
+        render(ep,d,True);bgm(ep,d,sys.argv[3] if len(sys.argv)>3 and not sys.argv[3].startswith("--") else os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","music","river_flows_in_you.mp3"),True)
+        v=f"{d}/{ep['name']}_HD_1080x1920";os.replace(v+"_配乐.mp4",v+".mp4");print("final",v+".mp4")
 
