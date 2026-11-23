@@ -19,6 +19,7 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | u_hero / u_lining / u_contract / u_warn | 子宫全貌 / 内膜 / 收缩 / 警示红光 | AI 玻璃（玫瑰粉） |
 | r_hero / r_hormone / r_tense / r_nodule | 乳腺腺叶 / 激素波动 / 紧绷 / 小结节 | AI 玻璃（玫瑰粉） |
 | h_hero / h_rest / h_grow | 单个毛囊剖面 / 毛囊休止期 / 头发新生 | AI 玻璃（玫瑰粉） |
+| p_hero / p_loose / p_contract | 盆底肌吊床托器官 / 吊床松弛下垂 / 收缩发光上提 | AI 玻璃（玫瑰粉） |
 
 ## 通用场景（每集可复用）
 | key | 内容 |
@@ -36,6 +37,7 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | w_cramp / w_office / w_milktea / w_warm | 痛经蜷床 / 上班痛经 / 冰奶茶 / 热敷 |
 | r_angry / r_sulk / r_walk / r_check | 办公室生气 / 夜里生闷气 / 散步放松 / 医院体检 |
 | h_brush / h_overtime / h_drain / h_ponytail / h_sleep | 梳子掉发 / 熬夜加班 / 下水口头发 / 扎紧马尾 / 安稳睡觉 |
+| p_newmom / p_sneeze / p_lift / p_situp / p_kegel | 新手妈妈夜里抱娃 / 产后打喷嚏 / 弯腰抱娃 / 产后仰卧起坐 / 仰躺放松练盆底 |
 
 ## 已做剧集（eps/<slug>/episode.json，可当模板）
 | slug | 标题 | 配音 | 主题色 |
@@ -46,6 +48,7 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | uterus_pain | 我是你的子宫·痛经篇（女性号首期；结尾互动已按新规改，成片是旧版） | 晓晓 | 玫瑰粉 |
 | breast_anger | 我是你的乳腺·爱生气篇 | 晓晓 | 玫瑰粉 |
 | hair_stress | 我是你的毛囊·压力掉发篇 | 晓晓 | 玫瑰粉 |
+| postpartum_pelvic | 我是你的盆底肌·产后松弛篇 | 晓晓 | 玫瑰粉 |
 
 ## 其他
 - music/river_flows_in_you.mp3：爱给网来源，商用授权未确认。
