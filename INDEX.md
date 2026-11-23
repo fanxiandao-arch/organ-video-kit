@@ -20,6 +20,8 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | r_hero / r_hormone / r_tense / r_nodule | 乳腺腺叶 / 激素波动 / 紧绷 / 小结节 | AI 玻璃（玫瑰粉） |
 | h_hero / h_rest / h_grow | 单个毛囊剖面 / 毛囊休止期 / 头发新生 | AI 玻璃（玫瑰粉） |
 | p_hero / p_loose / p_contract | 盆底肌吊床托器官 / 吊床松弛下垂 / 收缩发光上提 | AI 玻璃（玫瑰粉） |
+| v_hero / v_constrict / v_core | 手部血管网 / 指尖血管收缩发冷 / 热量留给心脑 | AI 玻璃（玫瑰粉） |
+| t_hero / t_nodule / t_hormone | 蝴蝶形甲状腺 / 良性小结节 / 激素流向全身 | AI 玻璃（玫瑰粉） |
 
 ## 通用场景（每集可复用）
 | key | 内容 |
@@ -38,6 +40,8 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | r_angry / r_sulk / r_walk / r_check | 办公室生气 / 夜里生闷气 / 散步放松 / 医院体检 |
 | h_brush / h_overtime / h_drain / h_ponytail / h_sleep | 梳子掉发 / 熬夜加班 / 下水口头发 / 扎紧马尾 / 安稳睡觉 |
 | p_newmom / p_sneeze / p_lift / p_situp / p_kegel | 新手妈妈夜里抱娃 / 产后打喷嚏 / 弯腰抱娃 / 产后仰卧起坐 / 仰躺放松练盆底 |
+| v_coldhands / v_office / v_drink / v_footsoak / v_walk / v_diet / v_meal | 冬天街头哈手 / 办公室裹毯子 / 火锅喝酒脸红 / 泡脚 / 冬日快走 / 节食小沙拉 / 暖热家常饭 |
+| t_report / t_ultrasound / t_mirror / t_salt / t_worry | 看体检报告 / 颈部B超 / 照镜摸脖子 / 碘盐海带紫菜 / 夜里看手机担心 |
 
 ## 已做剧集（eps/<slug>/episode.json，可当模板）
 | slug | 标题 | 配音 | 主题色 |
@@ -49,6 +53,8 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | breast_anger | 我是你的乳腺·爱生气篇 | 晓晓 | 玫瑰粉 |
 | hair_stress | 我是你的毛囊·压力掉发篇 | 晓晓 | 玫瑰粉 |
 | postpartum_pelvic | 我是你的盆底肌·产后松弛篇 | 晓晓 | 玫瑰粉 |
+| cold_hands | 我是你的血管·冬天手脚冰凉篇 | 晓晓 | 玫瑰粉 |
+| thyroid_nodule | 我是你的甲状腺·体检查出结节篇 | 晓晓 | 玫瑰粉 |
 
 ## 其他
 - music/river_flows_in_you.mp3：爱给网来源，商用授权未确认。
