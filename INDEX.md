@@ -22,6 +22,9 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | p_hero / p_loose / p_contract | 盆底肌吊床托器官 / 吊床松弛下垂 / 收缩发光上提 | AI 玻璃（玫瑰粉） |
 | v_hero / v_constrict / v_core | 手部血管网 / 指尖血管收缩发冷 / 热量留给心脑 | AI 玻璃（玫瑰粉） |
 | t_hero / t_nodule / t_hormone | 蝴蝶形甲状腺 / 良性小结节 / 激素流向全身 | AI 玻璃（玫瑰粉） |
+| ht_hero / ht_fast / ht_signal | 玻璃心脏 / 心跳加速光环 / 大脑发警报到心脏 | AI 玻璃（玫瑰粉） |
+| g_hero / g_brain / g_cramp | 玻璃肠道 / 脑-肠神经连线 / 肠道痉挛 | AI 玻璃（玫瑰粉） |
+| s_hero / s_barrier | 皮肤分层剖面 / 角质砖墙裂缝失水 | AI 玻璃（玫瑰粉） |
 
 ## 通用场景（每集可复用）
 | key | 内容 |
@@ -41,7 +44,10 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | h_brush / h_overtime / h_drain / h_ponytail / h_sleep | 梳子掉发 / 熬夜加班 / 下水口头发 / 扎紧马尾 / 安稳睡觉 |
 | p_newmom / p_sneeze / p_lift / p_situp / p_kegel | 新手妈妈夜里抱娃 / 产后打喷嚏 / 弯腰抱娃 / 产后仰卧起坐 / 仰躺放松练盆底 |
 | v_coldhands / v_office / v_drink / v_footsoak / v_walk / v_diet / v_meal | 冬天街头哈手 / 办公室裹毯子 / 火锅喝酒脸红 / 泡脚 / 冬日快走 / 节食小沙拉 / 暖热家常饭 |
-| t_report / t_ultrasound / t_mirror / t_salt / t_worry | 看体检报告 / 颈部B超 / 照镜摸脖子 / 碘盐海带紫菜 / 夜里看手机担心 |
+| t_report / t_ultrasound / t_mirror / t_salt / t_worry | 看体检报告 / 颈部B超 / 照镜摸脖子 / 碘盐海带紫菜 / 夜里看手机担心（人物像孕妇，非孕期题慎用） |
+| ht_night / ht_coffee / ht_breath / ht_phone | 半夜惊醒捂胸口 / 深夜加班咖啡浓茶 / 床边闭眼慢呼吸 / 躺床刷手机焦虑 |
+| g_exam / g_toilet / g_pills / g_breath | 上台前捂肚子紧张 / 走廊赶去厕所 / 桌上一堆药盒 / 沙发手放肚子慢呼吸 |
+| s_heater / s_shower / s_scratch / s_scrub / s_lotion / s_humid | 暖气房挠手臂 / 热水澡蒸汽 / 夜里挠小腿白道 / 搓澡巾搓红 / 浴后抹润肤霜 / 卧室加湿器 |
 
 ## 已做剧集（eps/<slug>/episode.json，可当模板）
 | slug | 标题 | 配音 | 主题色 |
@@ -55,9 +61,12 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | postpartum_pelvic | 我是你的盆底肌·产后松弛篇 | 晓晓 | 玫瑰粉 |
 | cold_hands | 我是你的血管·冬天手脚冰凉篇 | 晓晓 | 玫瑰粉 |
 | thyroid_nodule | 我是你的甲状腺·体检查出结节篇 | 晓晓 | 玫瑰粉 |
+| heart_anxiety | 我是你的心脏·焦虑心慌篇 | 晓晓 | 玫瑰粉 |
+| gut_nervous | 我是你的肠道·一紧张就肚子疼篇 | 晓晓 | 玫瑰粉 |
+| skin_dry | 我是你的皮肤·冬天干痒篇 | 晓晓 | 玫瑰粉 |
 
 ## 已做选题（含不在本仓库的，选新题前先查）
-- 肺、肝（喝酒）、肾、胃、毛囊、乳腺、子宫、卵巢、盆底肌、眼睛、食道（烫食）、跟腱/腱鞘、血管（手脚冰凉）、甲状腺（结节）
+- 肺、肝（喝酒）、肾、胃、毛囊、乳腺、子宫、卵巢、盆底肌、眼睛、食道（烫食）、跟腱/腱鞘、血管（手脚冰凉）、甲状腺（结节）、心脏（焦虑心慌）、肠道（一紧张就肚子疼）、皮肤（冬天干痒）
 
 ## 其他
 - music/river_flows_in_you.mp3：爱给网来源，商用授权未确认。
