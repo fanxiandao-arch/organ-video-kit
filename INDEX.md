@@ -24,7 +24,10 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | t_hero / t_nodule / t_hormone | 蝴蝶形甲状腺 / 良性小结节 / 激素流向全身 | AI 玻璃（玫瑰粉） |
 | ht_hero / ht_fast / ht_signal | 玻璃心脏 / 心跳加速光环 / 大脑发警报到心脏 | AI 玻璃（玫瑰粉） |
 | g_hero / g_brain / g_cramp | 玻璃肠道 / 脑-肠神经连线 / 肠道痉挛 | AI 玻璃（玫瑰粉） |
-| s_hero / s_barrier | 皮肤分层剖面 / 角质砖墙裂缝失水 | AI 玻璃（玫瑰粉） |
+| s_hero / s_barrier | 皮肤分层剖面 / 角质砖墙裂缝失水 |
+| kn_hero / kn_cartilage / kn_muscle | 玻璃膝关节 / 软骨磨损裂纹 / 大腿肌肉护膝 |
+| tr_hero / tr_mucus | 玻璃喉咙声带 / 黏液层干裂纤毛 |
+| bl_hero / bl_signal | 玻璃泌尿系统 / 膀胱充盈发信号到大脑 | AI 玻璃（玫瑰粉） |
 
 ## 通用场景（每集可复用）
 | key | 内容 |
@@ -48,6 +51,9 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | ht_night / ht_coffee / ht_breath / ht_phone | 半夜惊醒捂胸口 / 深夜加班咖啡浓茶 / 床边闭眼慢呼吸 / 躺床刷手机焦虑 |
 | g_exam / g_toilet / g_pills / g_breath | 上台前捂肚子紧张 / 走廊赶去厕所 / 桌上一堆药盒 / 沙发手放肚子慢呼吸 |
 | s_heater / s_shower / s_scratch / s_scrub / s_lotion / s_humid | 暖气房挠手臂 / 热水澡蒸汽 / 夜里挠小腿白道 / 搓澡巾搓红 / 浴后抹润肤霜 / 卧室加湿器 |
+| kn_cold / kn_stairs / kn_legraise / kn_sofa | 冬天露脚踝扶膝 / 爬楼梯扶膝 / 瑜伽垫直腿抬高 / 沙发窝着看电视 |
+| tr_wake / tr_talk / tr_candy / tr_hotpot / tr_water / tr_mask | 暖气房半夜干醒摸喉咙 / 老师讲课嗓子哑 / 一堆润喉糖 / 辣火锅烫茶 / 双手捧温水 / 冬天戴口罩 |
+| bl_night / bl_office / bl_water / bl_hold / bl_warm | 冬夜起床去厕所 / 开会中途离席 / 推开水杯不喝水 / 挤地铁憋尿 / 裹毯子穿厚袜保暖 |
 
 ## 已做剧集（eps/<slug>/episode.json，可当模板）
 | slug | 标题 | 配音 | 主题色 |
@@ -64,9 +70,12 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | heart_anxiety | 我是你的心脏·焦虑心慌篇 | 晓晓 | 玫瑰粉 |
 | gut_nervous | 我是你的肠道·一紧张就肚子疼篇 | 晓晓 | 玫瑰粉 |
 | skin_dry | 我是你的皮肤·冬天干痒篇 | 晓晓 | 玫瑰粉 |
+| knee_cold | 我是你的膝盖·冬天一冷就酸疼篇 | 晓晓 | 玫瑰粉 |
+| throat_dry | 我是你的喉咙·暖气房嗓子干疼篇 | 晓晓 | 玫瑰粉 |
+| bladder_cold | 我是你的膀胱·冬天老想上厕所篇 | 晓晓 | 玫瑰粉 |
 
 ## 已做选题（含不在本仓库的，选新题前先查）
-- 肺、肝（喝酒）、肾、胃、毛囊、乳腺、子宫、卵巢、盆底肌、眼睛、食道（烫食）、跟腱/腱鞘、血管（手脚冰凉）、甲状腺（结节）、心脏（焦虑心慌）、肠道（一紧张就肚子疼）、皮肤（冬天干痒）
+- 肺、肝（喝酒）、肾、胃、毛囊、乳腺、子宫、卵巢、盆底肌、眼睛、食道（烫食）、跟腱/腱鞘、血管（手脚冰凉）、甲状腺（结节）、心脏（焦虑心慌）、肠道（一紧张就肚子疼）、皮肤（冬天干痒）、膝盖（冬天酸疼）、喉咙（暖气房干疼）、膀胱（冬天尿频）
 
 ## 其他
 - music/river_flows_in_you.mp3：爱给网来源，商用授权未确认。
