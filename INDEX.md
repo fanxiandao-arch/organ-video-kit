@@ -27,7 +27,9 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | s_hero / s_barrier | 皮肤分层剖面 / 角质砖墙裂缝失水 |
 | kn_hero / kn_cartilage / kn_muscle | 玻璃膝关节 / 软骨磨损裂纹 / 大腿肌肉护膝 |
 | tr_hero / tr_mucus | 玻璃喉咙声带 / 黏液层干裂纤毛 |
-| bl_hero / bl_signal | 玻璃泌尿系统 / 膀胱充盈发信号到大脑 | AI 玻璃（玫瑰粉） |
+| bl_hero / bl_signal | 玻璃泌尿系统 / 膀胱充盈发信号到大脑 |
+| nk_hero / nk_forward | 玻璃颈椎七节 / 低头颈椎受压发红 |
+| bn_hero / bn_porous | 玻璃股骨蜂窝骨小梁 / 骨小梁稀疏变空 | AI 玻璃（玫瑰粉） |
 
 ## 通用场景（每集可复用）
 | key | 内容 |
@@ -54,6 +56,8 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | kn_cold / kn_stairs / kn_legraise / kn_sofa | 冬天露脚踝扶膝 / 爬楼梯扶膝 / 瑜伽垫直腿抬高 / 沙发窝着看电视 |
 | tr_wake / tr_talk / tr_candy / tr_hotpot / tr_water / tr_mask | 暖气房半夜干醒摸喉咙 / 老师讲课嗓子哑 / 一堆润喉糖 / 辣火锅烫茶 / 双手捧温水 / 冬天戴口罩 |
 | bl_night / bl_office / bl_water / bl_hold / bl_warm | 冬夜起床去厕所 / 开会中途离席 / 推开水杯不喝水 / 挤地铁憋尿 / 裹毯子穿厚袜保暖 |
+| nk_phone / nk_desk / nk_pillow / nk_crack / nk_stretch | 地铁低头刷手机 / 电脑前揉脖子 / 高枕头睡觉 / 自己猛掰脖子 / 工位收下巴练习 |
+| bn_sun / bn_milk / bn_soup / bn_fall / bn_hunch | 冬日公园晒太阳 / 奶豆腐绿叶菜早餐 / 油乎乎骨头汤 / 五十多岁女性冰面滑倒 / 五十多岁女性镜前驼背 |
 
 ## 已做剧集（eps/<slug>/episode.json，可当模板）
 | slug | 标题 | 配音 | 主题色 |
@@ -73,9 +77,11 @@ key 直接写进 episode.json；图片放 library/img/<key>.jpg，动图放 libr
 | knee_cold | 我是你的膝盖·冬天一冷就酸疼篇 | 晓晓 | 玫瑰粉 |
 | throat_dry | 我是你的喉咙·暖气房嗓子干疼篇 | 晓晓 | 玫瑰粉 |
 | bladder_cold | 我是你的膀胱·冬天老想上厕所篇 | 晓晓 | 玫瑰粉 |
+| neck_phone | 我是你的颈椎·低头刷手机篇（首次：13秒评论小花钩子 + 语速+15%） | 晓晓 | 玫瑰粉 |
+| bone_winter | 我是你的骨头·冬天骨质疏松篇（同上） | 晓晓 | 玫瑰粉 |
 
 ## 已做选题（含不在本仓库的，选新题前先查）
-- 肺、肝（喝酒）、肾、胃、毛囊、乳腺、子宫、卵巢、盆底肌、眼睛、食道（烫食）、跟腱/腱鞘、血管（手脚冰凉）、甲状腺（结节）、心脏（焦虑心慌）、肠道（一紧张就肚子疼）、皮肤（冬天干痒）、膝盖（冬天酸疼）、喉咙（暖气房干疼）、膀胱（冬天尿频）
+- 肺、肝（喝酒）、肾、胃、毛囊、乳腺、子宫、卵巢、盆底肌、眼睛、食道（烫食）、跟腱/腱鞘、血管（手脚冰凉）、甲状腺（结节）、心脏（焦虑心慌）、肠道（一紧张就肚子疼）、皮肤（冬天干痒）、膝盖（冬天酸疼）、喉咙（暖气房干疼）、膀胱（冬天尿频）、颈椎（低头刷手机）、骨头（骨质疏松）
 
 ## 其他
 - music/river_flows_in_you.mp3：爱给网来源，商用授权未确认。
